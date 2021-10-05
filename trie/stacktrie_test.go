@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/crypto"
+	"github.com/klever-io/go-ethereum/ethdb/memorydb"
 )
 
 func TestSizeBug(t *testing.T) {

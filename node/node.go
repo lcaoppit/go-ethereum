@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/klever-io/go-ethereum/accounts"
+	"github.com/klever-io/go-ethereum/core/rawdb"
+	"github.com/klever-io/go-ethereum/ethdb"
+	"github.com/klever-io/go-ethereum/event"
+	"github.com/klever-io/go-ethereum/log"
+	"github.com/klever-io/go-ethereum/p2p"
+	"github.com/klever-io/go-ethereum/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

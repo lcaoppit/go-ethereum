@@ -27,17 +27,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/common/hexutil"
+	"github.com/klever-io/go-ethereum/common/math"
+	"github.com/klever-io/go-ethereum/core"
+	"github.com/klever-io/go-ethereum/core/rawdb"
+	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/klever-io/go-ethereum/core/vm"
+	"github.com/klever-io/go-ethereum/crypto"
+	"github.com/klever-io/go-ethereum/params"
+	"github.com/klever-io/go-ethereum/rlp"
+	"github.com/klever-io/go-ethereum/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

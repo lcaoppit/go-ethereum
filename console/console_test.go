@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/consensus/ethash"
+	"github.com/klever-io/go-ethereum/console/prompt"
+	"github.com/klever-io/go-ethereum/core"
+	"github.com/klever-io/go-ethereum/eth"
+	"github.com/klever-io/go-ethereum/eth/ethconfig"
+	"github.com/klever-io/go-ethereum/internal/jsre"
+	"github.com/klever-io/go-ethereum/miner"
+	"github.com/klever-io/go-ethereum/node"
 )
 
 const (

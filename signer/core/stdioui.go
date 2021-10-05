@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/klever-io/go-ethereum/internal/ethapi"
+	"github.com/klever-io/go-ethereum/log"
+	"github.com/klever-io/go-ethereum/rpc"
 )
 
 type StdIOUI struct {
