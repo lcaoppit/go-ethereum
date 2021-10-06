@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

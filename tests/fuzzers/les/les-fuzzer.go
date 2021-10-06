@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/consensus/ethash"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/core/vm"
-	"github.com/klever-io/go-ethereum/crypto"
-	l "github.com/klever-io/go-ethereum/les"
-	"github.com/klever-io/go-ethereum/params"
-	"github.com/klever-io/go-ethereum/rlp"
-	"github.com/klever-io/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	l "github.com/ethereum/go-ethereum/les"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 var (

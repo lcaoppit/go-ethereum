@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/klever-io/go-ethereum/common/mclock"
-	"github.com/klever-io/go-ethereum/eth/ethconfig"
-	"github.com/klever-io/go-ethereum/ethdb"
-	"github.com/klever-io/go-ethereum/les/flowcontrol"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/les/flowcontrol"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

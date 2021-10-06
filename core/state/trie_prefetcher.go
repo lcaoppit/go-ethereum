@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

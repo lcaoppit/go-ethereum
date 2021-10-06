@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/hexutil"
-	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

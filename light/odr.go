@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

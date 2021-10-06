@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/klever-io/go-ethereum/cmd/utils"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/p2p/discover"
-	"github.com/klever-io/go-ethereum/p2p/enode"
-	"github.com/klever-io/go-ethereum/p2p/nat"
-	"github.com/klever-io/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
 func main() {

@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core/state"
-	"github.com/klever-io/go-ethereum/params"
 )
 
 type dummyContractRef struct {

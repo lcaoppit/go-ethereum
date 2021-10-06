@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/metrics"
-	"github.com/klever-io/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/klever-io/go-ethereum/cmd/utils"
-	"github.com/klever-io/go-ethereum/console"
-	"github.com/klever-io/go-ethereum/node"
-	"github.com/klever-io/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/console"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

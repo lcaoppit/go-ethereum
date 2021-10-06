@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core/state"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/params"
-	"github.com/klever-io/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

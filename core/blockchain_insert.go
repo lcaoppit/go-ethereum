@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/mclock"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // insertStats tracks and reports on block insertion.

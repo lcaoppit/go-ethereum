@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/klever-io/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/internal/utesting"
-	"github.com/klever-io/go-ethereum/p2p"
-	"github.com/klever-io/go-ethereum/p2p/rlpx"
-	"github.com/klever-io/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/internal/utesting"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/ethereum/go-ethereum/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

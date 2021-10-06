@@ -29,16 +29,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/mclock"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/event"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/p2p/discover"
-	"github.com/klever-io/go-ethereum/p2p/enode"
-	"github.com/klever-io/go-ethereum/p2p/enr"
-	"github.com/klever-io/go-ethereum/p2p/nat"
-	"github.com/klever-io/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
 const (

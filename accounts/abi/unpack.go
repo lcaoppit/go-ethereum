@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/klever-io/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 var (

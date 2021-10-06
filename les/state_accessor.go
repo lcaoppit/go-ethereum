@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/state"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/core/vm"
-	"github.com/klever-io/go-ethereum/light"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/light"
 )
 
 // stateAtBlock retrieves the state database associated with a certain block.

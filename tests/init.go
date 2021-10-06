@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // Forks table defines supported forks and their chain config.

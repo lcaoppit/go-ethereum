@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/math"
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

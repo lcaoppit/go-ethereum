@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core/forkid"
-	"github.com/klever-io/go-ethereum/p2p"
-	"github.com/klever-io/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/forkid"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

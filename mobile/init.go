@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/klever-io/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 func init() {

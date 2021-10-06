@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/hexutil"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/state"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/internal/ethapi"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/rlp"
-	"github.com/klever-io/go-ethereum/rpc"
-	"github.com/klever-io/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

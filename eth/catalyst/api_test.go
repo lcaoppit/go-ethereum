@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/klever-io/go-ethereum/consensus/ethash"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/eth"
-	"github.com/klever-io/go-ethereum/eth/ethconfig"
-	"github.com/klever-io/go-ethereum/node"
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 var (

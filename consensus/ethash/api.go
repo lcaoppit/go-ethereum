@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/hexutil"
-	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

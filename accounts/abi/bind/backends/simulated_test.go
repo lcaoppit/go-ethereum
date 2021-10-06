@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/klever-io/go-ethereum"
-	"github.com/klever-io/go-ethereum/accounts/abi"
-	"github.com/klever-io/go-ethereum/accounts/abi/bind"
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

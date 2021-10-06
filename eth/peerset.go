@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/eth/protocols/eth"
-	"github.com/klever-io/go-ethereum/eth/protocols/snap"
-	"github.com/klever-io/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/eth/protocols/eth"
+	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/ethereum/go-ethereum/p2p"
 )
 
 var (

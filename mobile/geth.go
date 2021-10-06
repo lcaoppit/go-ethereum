@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/eth/downloader"
-	"github.com/klever-io/go-ethereum/eth/ethconfig"
-	"github.com/klever-io/go-ethereum/ethclient"
-	"github.com/klever-io/go-ethereum/ethstats"
-	"github.com/klever-io/go-ethereum/internal/debug"
-	"github.com/klever-io/go-ethereum/les"
-	"github.com/klever-io/go-ethereum/node"
-	"github.com/klever-io/go-ethereum/p2p"
-	"github.com/klever-io/go-ethereum/p2p/nat"
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/eth/downloader"
+	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/ethereum/go-ethereum/ethstats"
+	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/ethereum/go-ethereum/les"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/golang/snappy"
-	"github.com/klever-io/go-ethereum/common/math"
-	"github.com/klever-io/go-ethereum/rlp"
 )
 
 // This is the maximum amount of data that will be buffered in memory

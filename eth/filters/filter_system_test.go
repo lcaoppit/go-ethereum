@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/klever-io/go-ethereum"
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/consensus/ethash"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/bloombits"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/ethdb"
-	"github.com/klever-io/go-ethereum/event"
-	"github.com/klever-io/go-ethereum/params"
-	"github.com/klever-io/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/bloombits"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 var (

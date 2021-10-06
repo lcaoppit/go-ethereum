@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/klever-io/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

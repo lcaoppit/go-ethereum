@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/metrics"
-	"github.com/klever-io/go-ethereum/metrics/prometheus"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/metrics/prometheus"
 )
 
 type exp struct {

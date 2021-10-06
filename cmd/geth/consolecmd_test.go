@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 const (

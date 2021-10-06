@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/klever-io/go-ethereum/core/state"
-	"github.com/klever-io/go-ethereum/core/vm"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/tests"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

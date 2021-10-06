@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/bitutil"
-	"github.com/klever-io/go-ethereum/metrics"
-	"github.com/klever-io/go-ethereum/p2p/rlpx"
-	"github.com/klever-io/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/bitutil"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

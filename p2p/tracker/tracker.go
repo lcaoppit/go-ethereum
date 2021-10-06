@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const (

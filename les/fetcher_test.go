@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/klever-io/go-ethereum/consensus/ethash"
-	"github.com/klever-io/go-ethereum/core"
-	"github.com/klever-io/go-ethereum/core/rawdb"
-	"github.com/klever-io/go-ethereum/core/types"
-	"github.com/klever-io/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

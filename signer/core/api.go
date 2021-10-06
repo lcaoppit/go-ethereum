@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/klever-io/go-ethereum/accounts"
-	"github.com/klever-io/go-ethereum/accounts/keystore"
-	"github.com/klever-io/go-ethereum/accounts/scwallet"
-	"github.com/klever-io/go-ethereum/accounts/usbwallet"
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/hexutil"
-	"github.com/klever-io/go-ethereum/internal/ethapi"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/signer/core/apitypes"
-	"github.com/klever-io/go-ethereum/signer/storage"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/accounts/scwallet"
+	"github.com/ethereum/go-ethereum/accounts/usbwallet"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 const (

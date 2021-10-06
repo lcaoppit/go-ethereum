@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/klever-io/go-ethereum/common"
-	"github.com/klever-io/go-ethereum/common/math"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/crypto/blake2b"
-	"github.com/klever-io/go-ethereum/crypto/bls12381"
-	"github.com/klever-io/go-ethereum/crypto/bn256"
-	"github.com/klever-io/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/blake2b"
+	"github.com/ethereum/go-ethereum/crypto/bls12381"
+	"github.com/ethereum/go-ethereum/crypto/bn256"
+	"github.com/ethereum/go-ethereum/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

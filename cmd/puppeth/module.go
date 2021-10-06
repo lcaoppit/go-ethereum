@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/klever-io/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

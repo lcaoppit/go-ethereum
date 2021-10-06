@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/klever-io/go-ethereum/common/hexutil"
-	"github.com/klever-io/go-ethereum/crypto"
-	"github.com/klever-io/go-ethereum/internal/debug"
-	"github.com/klever-io/go-ethereum/log"
-	"github.com/klever-io/go-ethereum/p2p"
-	"github.com/klever-io/go-ethereum/p2p/enode"
-	"github.com/klever-io/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.
