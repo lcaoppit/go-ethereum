@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/node"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/klever-io/go-ethereum/internal/ethapi"
+	"github.com/klever-io/go-ethereum/node"
 )
 
 type handler struct {

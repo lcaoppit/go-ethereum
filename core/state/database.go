@@ -21,12 +21,12 @@ import (
 	"fmt"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/core/rawdb"
+	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/klever-io/go-ethereum/ethdb"
+	"github.com/klever-io/go-ethereum/trie"
 )
 
 const (

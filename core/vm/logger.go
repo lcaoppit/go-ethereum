@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/common/hexutil"
+	"github.com/klever-io/go-ethereum/common/math"
+	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/klever-io/go-ethereum/params"
 )
 
 // Storage represents a contract's storage.

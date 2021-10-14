@@ -25,15 +25,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/klever-io/go-ethereum"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/common/hexutil"
+	"github.com/klever-io/go-ethereum/common/math"
+	"github.com/klever-io/go-ethereum/core/state"
+	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/klever-io/go-ethereum/eth/filters"
+	"github.com/klever-io/go-ethereum/internal/ethapi"
+	"github.com/klever-io/go-ethereum/rpc"
 )
 
 var (

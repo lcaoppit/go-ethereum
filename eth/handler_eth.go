@@ -23,13 +23,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/klever-io/go-ethereum/common"
+	"github.com/klever-io/go-ethereum/core"
+	"github.com/klever-io/go-ethereum/core/types"
+	"github.com/klever-io/go-ethereum/eth/protocols/eth"
+	"github.com/klever-io/go-ethereum/log"
+	"github.com/klever-io/go-ethereum/p2p/enode"
+	"github.com/klever-io/go-ethereum/trie"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network
